@@ -1,0 +1,52 @@
+/* Background color for full box */
+.bg-box {
+    background-color: #f8f9fa;
+    /* Light grey background for the container */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Background color for the header */
+.bg-header {
+    background-color: #343a40;
+    /* Dark background for the table header */
+    color: white;
+    /* White text for header */
+}
+
+/* Background color for table rows */
+.bg-row {
+    background-color: #e9ecef;
+    /* Light background for rows */
+}
+
+/* Background color for table footer */
+.bg-footer {
+    background-color: #adb5bd;
+    /* Light grey background for footer */
+    color: black;
+    /* Black text for footer */
+}
+
+/* Full-width table with consistent padding */
+.table {
+    margin-bottom: 0;
+    /* Remove bottom margin for the table */
+    width: 100%;
+    /* Full width */
+}
+
+/* Add borders and padding to table cells */
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    /* Light grey border */
+    padding: 15px;
+    /* Add padding to cells */
+}
+
+/* Optional: Add hover effect to rows */
+.table tbody tr:hover {
+    background-color: #d1e7dd;
+    /* Light green background on hover */
+}

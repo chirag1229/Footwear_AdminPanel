@@ -1,0 +1,27 @@
+.card-contain-admin {
+    height: 500px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Boxs {
+    margin-left: 250px;
+}
+
+.women-all-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.admin-main-card {
+    /* margin-left: 130px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
